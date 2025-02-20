@@ -1,1 +1,0 @@
-#mdzinavs xval vizam :)
