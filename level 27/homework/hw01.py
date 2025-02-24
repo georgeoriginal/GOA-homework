@@ -3,3 +3,4 @@ project = ["ჩატბოტი", "პროექტი", "ვებსაი
 one_project = project[0]
 two_project = project[4]
 print(one_project, two_project)
+
