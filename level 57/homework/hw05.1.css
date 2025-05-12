@@ -46,9 +46,12 @@ nav a.button {
 .man {
     display: flex;
     align-items: center;
-    padding: 50px;
-    max-width: 1200px;
+    padding: 100px;
+    width: 1200px;
     margin: 0 auto;
+    width: 2000px;
+    height: 300px;
+    
 }
 
 .man-content {
@@ -84,4 +87,5 @@ nav a.button {
 .man-image img {
     max-width: 100%;
     height: auto;
+    width: 500px;
 }
