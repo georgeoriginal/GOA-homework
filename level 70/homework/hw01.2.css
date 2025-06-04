@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Outfit", sans-serif;
+}
+
+.main {
+  width: 50rem;
+  background-color: white;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+
+
+
+.preperation {
+  background-color: hsl(330, 100%, 98%);
+  width: 100%;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.preperation h2 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+
+.preperation ul {
+  list-style-position: inside;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.preperation ul li {
+  font-size: 1.1rem;
+  color: hsl(332, 51%, 32%);
+}
+
+.preperation ul li strong {
+  color: hsl(30, 10%, 34%);
+}
+
+.preperation ul li p {
+  display: inline;
+  color: hsl(30, 10%, 34%);
+  margin-left: 10px;
+}
+
+
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ingredients h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  font-size: 2rem;
+}
+
+.information h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  font-size: 2rem;
+}
+
+.information ol {
+  list-style-position: outside;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: hsl(30, 10%, 34%);
+  font-weight: bold;
+}
+
+.ingredients ul {
+  list-style-position: inside;
+  margin: 5px 10px;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredients ul li {
+  position: relative;
+}
+
+.ingredients ul li p {
+  display: inline;
+  color: hsl(30, 10%, 34%);
+  margin-left: 10px;
+}
+
+
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.information ol p {
+  margin-left: 15px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+.nuts table tr th {
+  text-align: start;
+  color: hsl(14, 45%, 36%);
+}
+
+.nuts table .last td {
+  border: none;
+}
+.nuts table .last th {
+  border: none;
+}
+
+
+
+.nuts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.nuts h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  font-size: 2rem;
+}
+
+.nuts p {
+  color: hsl(30, 10%, 34%);
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.nuts table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nuts table tr td,
+th {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 30px;
+}
+
+.nut table tr td {
+  width: 42%;
+  color: hsl(30, 10%, 34%);
+}
+
+.Recipe {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 2.62rem;
+  font-weight: 400;
+}
+
+.Recipe p {
+  color: hsl(30, 10%, 34%);
+  line-height: 25px;
+  font-weight: 400;
+}
+
